@@ -1,0 +1,29 @@
+.sticky-header {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it stays on top of other content */
+    background-color: #fff; /* Set a background color if needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for better visibility */
+  }
+.dropdown-menu {
+    background-color: #343a40; /* Dark background */
+    border-radius: 8px; /* Soft corners */
+    padding: 10px 0; /* Padding around items */
+    transition: all 0.2s ease; /* Smooth transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+.dropdown-item {
+    padding: 10px 20px; /* More padding for a comfortable click area */
+    transition: background-color 0.2s ease; /* Smooth hover effect */
+  }
+  
+.dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Subtle hover effect */
+  }
+.search-container {
+    margin-left: 50px; /* Adjust this value as needed */
+  }
+
+  

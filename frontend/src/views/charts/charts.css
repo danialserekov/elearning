@@ -1,0 +1,10 @@
+.chart-container {
+    width: 50%;
+    max-width: 500px;
+    height:350px;
+    margin: 0 auto;
+}
+
+.chart {
+    height: 300px;
+}
